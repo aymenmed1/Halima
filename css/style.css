@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/******** REGLES GENERALES******/
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.maj {
+    text-transform: capitalize;
+}
+
+.w50h100 {
+    width: 50%;
+    height: 100%;
+}
+
+.w100h50 {
+    width: 100%;
+    height: 50%;
+}
+
+.w100h100 {
+    width: 100%;
+    height: 100%;
+}
+
+.w100h50 {
+    width: 100%;
+    height: 50%;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.beige {
+    background: #F9FAF0;
+}
+
+.rose {
+    background: #D9C4B8;
+}
+
+.w425h140 {
+    width: 425px;
+    height: 140px;
+}
+
+.m83 {
+    margin-top: 83px;
+}
+
+.p25 {
+    padding-bottom: 25px;
+}
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+
+/******* FIN REGLES  GENERALES*****/
+
+
+/******* REGLES FLEX ********/
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-cent {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-s {
+    justify-content: flex-start;
+}
+
+.flex-sb {
+    justify-content: space-between;
+}
+
+
+/******** FIN REGLES FLEX *******/
+
+
+/******** REGLES IMAGE *********/
+
+#img {
+    background: url(../img/pexels-photo-5474284.jpeg);
+    width: 30vw;
+    min-width: 300px;
+}
+
+#img1 {
+    background: url(../img/pexels-photo-5474284.jpeg);
+    opacity: 0.5;
+    width: 30vw;
+    min-width: 300px;
+}
+
+
+/******** FIN REGLES IMAGE *********/
+
+#contenu,
+#img {
+    height: 100vh;
+}
+
+#contenu {
+    width: 70vw;
+}
+
+#titre {
+    height: 25vh;
+    min-height: 200px;
+    background: #D9C4B8;
+}
+
+#corps {
+    height: 75vh;
+}
+
+#hal {
+    width: 50%;
+}
+
+#motiv {
+    justify-content: space-around;
+}
+
+
+/****** REGLES P *******/
+
+#motiv p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8em;
+    line-height: 28px;
+    text-align: right;
+    color: #F9FAF0;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.rose p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #731D0A;
+}
+
+.cp {
+    text-align: left;
+    font-size: 38px;
+    color: #731D0A;
+}
+
+
+/****** fin REGLES P *******/
+
+
+/******* BOUTON *******/
+
+#btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #731D0A;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    line-height: 37px;
+    font-size: 36px;
+    color: #fff;
+}
+
+
+/******* FIN BOUTON *******/
+
+
+/************ LIEN ***********/
+
+.rose a {
+    text-decoration: none;
+    color: #731D0A;
+}
+
+
+/************ FIN LIEN *******/
+
+
+/************ LISTE *********/
+
+.ul1 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 38px;
+    text-align: left;
+    line-height: 125px;
+    color: rgba(115, 29, 10, 1);
+    left: 30px;
+    top: 260px;
+    text-align: center;
+}
+
+.ul2 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 38px;
+    text-align: left;
+    line-height: 125px;
+    color: #731D0A;
+}
+
+.ul3 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 38px;
+    text-align: center;
+    line-height: 370px;
+    color: rgba(115, 29, 10, 1);
+    left: 30px;
+    top: 120px;
+    text-align: center;
+}
+
+.ul4 {
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+    font-size: 38px;
+    text-align: left;
+    line-height: 125px;
+    color: #731D0A;
+}
+
+
+/************ FIN LISTE *********/
+
+
+/************ H *****************/
+
+.h1 {
+    margin: 30px;
+    color: #F9FAF0;
+    font-size: 72px;
+}
+
+.h1c {
+    margin: 30px;
+    color: #F9FAF0;
+    font-size: 72px;
+    text-align: center;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/************  fin H *********/
+
+
+/******* CONTACT ********/
+
+.tel {
+    background-image: url(../img/Capture\ d’écran\ 2020-11-02\ à\ 20.28.22.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.env {
+    background-image: url(../img/Capture\ d’écran\ 2020-11-02\ à\ 20.28.12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.txt {
+    text-align: center;
+    font-size: 48px;
+}
+
+
+/******* fin  CONTACT ********/
